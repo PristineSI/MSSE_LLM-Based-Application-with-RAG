@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Labs Policy Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <p class="eyebrow">ACADEMIC RAG DEMO · FICTIONAL POLICY CORPUS</p>
+      <h1>Northstar Labs Policy Assistant</h1>
+      <p class="intro">Ask a question about the synthetic company policies. Answers are based on retrieved policy passages and include citations.</p>
+    </header>
+
+    <section class="notice" aria-label="Important notice">
+      <strong>Academic exercise:</strong> Northstar Labs and these policies are fictional. This demo is not HR, legal, or business advice.
+    </section>
+
+    <form id="question-form" class="question-form">
+      <label for="question">Your policy question</label>
+      <textarea id="question" name="question" rows="3" maxlength="1000" placeholder="For example: How many annual leave days may I carry over?" required></textarea>
+      <div class="form-row">
+        <span id="char-count">0 / 1000</span>
+        <button id="submit-button" type="submit">Ask the policies</button>
+      </div>
+    </form>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <section id="answer-panel" class="answer-panel" hidden>
+      <h2>Answer</h2>
+      <p id="answer" class="answer"></p>
+      <div id="citations-wrap" hidden>
+        <h3>Sources</h3>
+        <ul id="citations" class="citations"></ul>
+      </div>
+      <details id="snippets-wrap" hidden>
+        <summary>Retrieved policy passages</summary>
+        <div id="snippets" class="snippets"></div>
+      </details>
+    </section>
+    <footer>Runs locally on this computer. Questions and retrieved passages are sent to the configured language-model provider for answer generation.</footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</body>
+</html>

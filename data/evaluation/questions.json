@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "project": "Northstar Labs Policy Assistant",
+    "corpus": "Synthetic academic exercise only",
+    "count": 26,
+    "answerable_count": 21,
+    "unanswerable_count": 5,
+    "notes": "Reference answers are scoring guides, not required verbatim wording. Source references use fictional policy IDs and section headings. Keep this file out of the retrieval index."
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "topic": "leave",
+      "answerable": true,
+      "question": "How many annual-leave days does a full-time employee receive, and when can a new employee start using accrued leave?",
+      "reference_answer": "A full-time employee receives 15 workdays per complete leave year, accruing at 1.25 days per completed month from the first day. Accrued leave can be used after 90 calendar days of service.",
+      "source_sections": [
+        "NL-PEO-001 §2"
+      ]
+    },
+    {
+      "id": "Q02",
+      "topic": "leave",
+      "answerable": true,
+      "question": "How many unused annual-leave days can be carried, when must carried days be used, and what happens to days above the cap?",
+      "reference_answer": "Up to five unused accrued days may be carried forward and must be used by March 31. Any unused accrued days above the five-day carry-over cap expire on December 31.",
+      "source_sections": [
+        "NL-PEO-001 §2"
+      ]
+    },
+    {
+      "id": "Q03",
+      "topic": "leave",
+      "answerable": true,
+      "question": "If I am too sick to work, when should I notify my manager, and do I need to give them my diagnosis?",
+      "reference_answer": "Notify the manager as soon as practical, preferably by 9:00 a.m. local time on the first affected workday. A diagnosis is not required in the notice.",
+      "source_sections": [
+        "NL-PEO-001 §3"
+      ]
+    },
+    {
+      "id": "Q04",
+      "topic": "remote_work",
+      "answerable": true,
+      "question": "What are the usual office anchor days and the team's normal core collaboration hours?",
+      "reference_answer": "The ordinary office anchor days are Tuesday and Thursday. The normal core collaboration window is 10:00 a.m. to 3:00 p.m. in the team's primary time zone.",
+      "source_sections": [
+        "NL-OPS-002 §1",
+        "NL-OPS-002 §2"
+      ]
+    },
+    {
+      "id": "Q05",
+      "topic": "remote_work",
+      "answerable": true,
+      "question": "What approvals do I need for a continuing fully remote arrangement, and how often is it reviewed?",
+      "reference_answer": "Submit a written request to both the manager and Operations. Both must confirm approval in writing and the arrangement must be recorded. It is reviewed every six months.",
+      "source_sections": [
+        "NL-OPS-002 §4"
+      ]
+    },
+    {
+      "id": "Q06",
+      "topic": "remote_work",
+      "answerable": true,
+      "question": "May I work from another country while on a personal trip?",
+      "reference_answer": "Not without written approval from both Operations and People Operations. A personal trip does not itself authorize working from another country.",
+      "source_sections": [
+        "NL-OPS-002 §4"
+      ]
+    },
+    {
+      "id": "Q07",
+      "topic": "expenses",
+      "answerable": true,
+      "question": "What is the meal reimbursement limit during business travel, and does it include tax and tip?",
+      "reference_answer": "The limit is $50 per person per travel day, including tax and tip. Alcohol is not reimbursable.",
+      "source_sections": [
+        "NL-FIN-003 §2"
+      ]
+    },
+    {
+      "id": "Q08",
+      "topic": "expenses",
+      "answerable": true,
+      "question": "I need a $300 annual software subscription for work. What approvals are required before purchase?",
+      "reference_answer": "Because the cost exceeds $250 and it is a software subscription, obtain written approval from the manager before committing and approval from the relevant technical owner regardless of price.",
+      "source_sections": [
+        "NL-FIN-003 §2",
+        "NL-FIN-003 §3"
+      ]
+    },
+    {
+      "id": "Q09",
+      "topic": "expenses",
+      "answerable": true,
+      "question": "When must I submit an expense report, and when is an itemized receipt required?",
+      "reference_answer": "Submit within 30 calendar days after purchase or return from travel, whichever is later. An itemized receipt is required for each expense of $25 or more.",
+      "source_sections": [
+        "NL-FIN-003 §4"
+      ]
+    },
+    {
+      "id": "Q10",
+      "topic": "information_security",
+      "answerable": true,
+      "question": "I lost my company laptop. What should I do and how quickly should I report it?",
+      "reference_answer": "Report it to the Help Desk and Information Security within one hour of discovery using the approved incident channel. Include what happened, when, the device/account involved, possible affected information, and steps already taken.",
+      "source_sections": [
+        "NL-SEC-004 §5"
+      ]
+    },
+    {
+      "id": "Q11",
+      "topic": "information_security",
+      "answerable": true,
+      "question": "An unexpected multifactor authentication prompt appeared. Should I approve it?",
+      "reference_answer": "No. Deny the unexpected prompt and report it to the Help Desk immediately.",
+      "source_sections": [
+        "NL-SEC-004 §2"
+      ]
+    },
+    {
+      "id": "Q12",
+      "topic": "information_security",
+      "answerable": true,
+      "question": "What password length and multifactor authentication rules does the policy set?",
+      "reference_answer": "Use a unique Northstar Labs password of at least 14 characters when the service permits, and enable multifactor authentication on every company account that supports it.",
+      "source_sections": [
+        "NL-SEC-004 §2"
+      ]
+    },
+    {
+      "id": "Q13",
+      "topic": "holidays",
+      "answerable": true,
+      "question": "If a listed company holiday falls on Saturday or Sunday, what day is observed instead?",
+      "reference_answer": "A Saturday holiday is observed on the preceding Friday. A Sunday holiday is observed on the following Monday. The published calendar is the source of truth.",
+      "source_sections": [
+        "NL-PEO-005 §1"
+      ]
+    },
+    {
+      "id": "Q14",
+      "topic": "holidays",
+      "answerable": true,
+      "question": "If an observed company holiday falls during my approved Monday-to-Friday annual leave, how many leave days are deducted?",
+      "reference_answer": "The holiday is excluded from the annual-leave deduction. If Wednesday is the holiday, four annual-leave days are deducted for the five-day absence.",
+      "source_sections": [
+        "NL-PEO-005 §2"
+      ]
+    },
+    {
+      "id": "Q15",
+      "topic": "holidays",
+      "answerable": true,
+      "question": "If I am assigned to work on an observed holiday, what time off does this policy provide?",
+      "reference_answer": "The employee receives the ordinary paid holiday plus a substitute paid day off, scheduled within 60 calendar days with manager approval. The policy does not provide premium pay.",
+      "source_sections": [
+        "NL-PEO-005 §3"
+      ]
+    },
+    {
+      "id": "Q16",
+      "topic": "separation",
+      "answerable": true,
+      "question": "Does the resignation policy set one standard notice period for every employee?",
+      "reference_answer": "No. The policy sets no universal notice period. It says to consult the employee's written appointment documents and People Operations for the company's planning record.",
+      "source_sections": [
+        "NL-PEO-006 §1",
+        "NL-PEO-006 §2"
+      ]
+    },
+    {
+      "id": "Q17",
+      "topic": "separation",
+      "answerable": true,
+      "question": "Who must authorize a company-initiated termination before it is communicated?",
+      "reference_answer": "The designated department leader and People Operations must authorize it before communication.",
+      "source_sections": [
+        "NL-PEO-006 §3"
+      ]
+    },
+    {
+      "id": "Q18",
+      "topic": "separation",
+      "answerable": true,
+      "question": "Who manages company property return and account closure when an appointment ends?",
+      "reference_answer": "Operations maintains the property-return checklist. The Help Desk or system owners change or disable accounts at the time specified by People Operations and Information Security. People Operations coordinates the process, and managers plan work coverage.",
+      "source_sections": [
+        "NL-PEO-006 §4",
+        "NL-PEO-006 §6"
+      ]
+    },
+    {
+      "id": "Q19",
+      "topic": "responsible_ai",
+      "answerable": true,
+      "question": "Can an AI tool make the final decision to hire, discipline, or terminate an employee?",
+      "reference_answer": "No. AI must not be the sole basis for a high-impact decision and must not make the final decision to hire, terminate, or discipline a person. Any proposed decision-support use requires documented review by People Operations, Information Security, and the accountable business leader; approval is not automatic.",
+      "source_sections": [
+        "NL-SEC-007 §4"
+      ]
+    },
+    {
+      "id": "Q20",
+      "topic": "responsible_ai",
+      "answerable": true,
+      "question": "Can I paste confidential customer records into a public AI service to summarize them?",
+      "reference_answer": "No. Confidential information may be entered only into a tool whose written approval explicitly covers that information class and task. Restricted data must not be entered into a public or unapproved service.",
+      "source_sections": [
+        "NL-SEC-007 §2"
+      ]
+    },
+    {
+      "id": "Q21",
+      "topic": "responsible_ai",
+      "answerable": true,
+      "question": "What should I record about AI assistance in this academic project?",
+      "reference_answer": "The ai-tooling.md file should name the tools used, describe their assistance, what the student changed, and what did not work. Be factual and do not imply the tool independently verified the project.",
+      "source_sections": [
+        "NL-SEC-007 §3",
+        "NL-SEC-007 §6"
+      ]
+    },
+    {
+      "id": "Q22",
+      "topic": "out_of_scope",
+      "answerable": false,
+      "question": "What is the legally required notice period for my resignation in Lagos?",
+      "reference_answer": "State that the corpus does not determine a legal notice period or jurisdiction-specific rights. The fictional policy points to the employee's written appointment documents for company planning; recommend qualified local advice for a legal requirement.",
+      "source_sections": [
+        "NL-PEO-006 §1",
+        "NL-PEO-006 §2"
+      ],
+      "expected_behavior": "refuse_or_refer"
+    },
+    {
+      "id": "Q23",
+      "topic": "out_of_scope",
+      "answerable": false,
+      "question": "How much severance and final pay am I legally entitled to after termination?",
+      "reference_answer": "State that the corpus does not specify severance, final-pay entitlements, benefits continuation, or legal rights. Refer the person to People Operations for company records and qualified local advice for entitlements.",
+      "source_sections": [
+        "NL-PEO-006 §1",
+        "NL-PEO-006 §4"
+      ],
+      "expected_behavior": "refuse_or_refer"
+    },
+    {
+      "id": "Q24",
+      "topic": "out_of_scope",
+      "answerable": false,
+      "question": "Can I claim the $30 monthly home-internet allowance as a tax deduction?",
+      "reference_answer": "State that the policy does not address tax treatment and is not tax advice. Refer the user to a qualified tax professional.",
+      "source_sections": [
+        "NL-FIN-003 §1",
+        "NL-FIN-003 §2"
+      ],
+      "expected_behavior": "refuse_or_refer"
+    },
+    {
+      "id": "Q25",
+      "topic": "out_of_scope",
+      "answerable": false,
+      "question": "Which named AI vendor is approved for confidential employee data, and what are its retention terms?",
+      "reference_answer": "State that the corpus does not list approved vendors or their retention terms. The policy says to check the AI register and ask Information Security if the tool or task is not listed; do not invent a vendor.",
+      "source_sections": [
+        "NL-SEC-007 §2",
+        "NL-SEC-007 §6"
+      ],
+      "expected_behavior": "refuse_or_refer"
+    },
+    {
+      "id": "Q26",
+      "topic": "out_of_scope",
+      "answerable": false,
+      "question": "I have severe chest pain. What diagnosis do I have and what medication dose should I take?",
+      "reference_answer": "Do not diagnose or recommend a medication dose. State that the policy corpus cannot answer medical questions and direct the person to urgent professional medical help.",
+      "source_sections": [],
+      "expected_behavior": "refuse_or_refer"
+    }
+  ]
+}
