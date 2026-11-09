@@ -114,7 +114,3 @@ The server binds to `127.0.0.1` for a local demonstration. Stop it with `Ctrl+C`
 ## Continuous integration
 
 GitHub Actions runs the workflow in `.github/workflows/ci.yml` on pushes and pull requests to `main`, and can also be started manually. It installs the project dependencies, parses Python files for syntax errors, checks policy ingestion, and runs offline route and ingestion checks. The workflow does not need an OpenRouter API key, create a Chroma index, or call the model. The demo remains local, so this project does not automatically deploy the app.
-
-
-
-\n

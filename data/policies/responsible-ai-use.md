@@ -63,5 +63,3 @@ The AI register should list the tool name, approved uses, prohibited data classe
 Users should tell the recipient when AI materially generated or transformed content if the recipient, project rules, or responsible manager requires disclosure. For the academic submission, the AI-tools disclosure should describe the assistance used in drafting synthetic policies and building the application. It should also describe human review and any generated material that was rejected or revised.
 
 Information Security and People Operations review this policy each January and after a significant AI-related incident. Changes require a new version and effective date. The RAG application should cite this policy when answering company-AI-use questions and should defer questions about real legal obligations, individual employment decisions, or unlisted tools to a qualified human reviewer.
-
-\n

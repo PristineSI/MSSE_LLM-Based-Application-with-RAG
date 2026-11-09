@@ -32,9 +32,3 @@ The prepared set contains 26 questions: three answerable questions for each of t
 - Keep every policy fully synthetic and free of real personal, company-confidential, or paid content.
 - Give each document a stable ID or filename so responses can cite it consistently.
 - Add a small number of unanswerable questions to check that the assistant does not invent policy details.
-
-
-
-
-
-\n
